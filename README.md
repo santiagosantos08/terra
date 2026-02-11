@@ -2,23 +2,17 @@
 
 Live globe wallpaper generator for GNOME and KDE Plasma. Renders a 3D globe showing current day/night cycles, centered on your location, with live weather data and HUD information.
 
+![Screenshot 1 zoomed in globe](https://raw.githubusercontent.com/santiagosantos08/terra/refs/heads/main/screenshots/sc1.png)
+
+![Screenshot 2 zoomed out globe](https://raw.githubusercontent.com/santiagosantos08/terra/refs/heads/main/screenshots/sc2.png)
+
+
 ## Dependencies
 
-Terra requires the following tools. Install them according to your distribution's package manager:
+Terra requires the following tools. Install them according to your distribution's package manager, the names stay the same across all major distros (Fedora, Debian/Ubuntu, Arch):
 
-### Fedora/Nobara/etc
 ```
-sudo dnf install xplanet jq curl
-```
-
-### Debian/Ubuntu/Mint/etc
-```
-sudo apt install xplanet jq curl
-```
-
-### Arch/Cachy/etc
-```
-sudo pacman -S xplanet jq curl
+xplanet jq curl
 ```
 
 ## Installation
@@ -65,5 +59,3 @@ Todos / stuff you can help with:
 - Auto change the backgorund color depending on time? not sure..
 
 - Add stars / constellations in the background? scope creep incoming.
-
-- Def modify the installer to give the option to choose a different texture, it looks wayy better with a nicer one.
