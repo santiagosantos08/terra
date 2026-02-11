@@ -1,0 +1,28 @@
+general:
+  # Options: gnome, kde, auto
+  desktop_environment: "auto"
+  # Update interval in seconds.
+  # It's weather and globe position, 10 minutes should be more than enough, don't waste resources updating it every 2 seconds.
+  update_interval: 600
+  # Directory for temporary assets. The script replaces 'USERNAME' automatically, don't panic lol.
+  cache_dir: "/home/USERNAME/.cache/terra"
+
+globe:
+  # Zoom level as percentage of screen height.
+  zoom: 65
+  # Screen offsets (0 is center). Positive X moves right, positive Y moves down.
+  offset_x: 0
+  offset_y: 0
+  bg_color: "#111111"
+
+location:
+  # 'auto' uses IP geolocation. 'manual' uses lat/lon below.
+  mode: "auto"
+  manual_lat: -34.60
+  manual_lon: -58.38
+  manual_city: "Fake City 123" # If set to manual lat/long, this is the city that shows under 'LOC'
+
+display:
+  # Res at which the image will get generated, yes, it's an svg, but xplanet still exports regular pixels.
+  width: 1920
+  height: 1080
