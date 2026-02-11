@@ -5,7 +5,7 @@ set -e
 INSTALL_DIR="$HOME/terra"
 CACHE_DIR="$HOME/.cache/terra"
 SERVICE_FILE="$HOME/.config/systemd/user/terra.service"
-MAP_URL="https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png"
+MAP_URL="https://shadedrelief.com/natural3/ne3_data/16200/textures/1_earth_16k.jpg"
 
 echo "--- INSTALLING TERRA ---"
 
@@ -25,7 +25,7 @@ fi
 
 echo "[INFO] Setting up cache and downloading map..."
 mkdir -p "$CACHE_DIR"
-curl -L -o "$CACHE_DIR/earth_map.png" "$MAP_URL"
+curl -L -A "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -o "$CACHE_DIR/earth_map.jpg" "$MAP_URL"
 
 # Systemd service
 echo "[INFO] Creating systemd service..."

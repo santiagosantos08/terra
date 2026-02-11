@@ -9,7 +9,7 @@ general:
 
 globe:
   # Zoom level as percentage of screen height.
-  zoom: 65
+  zoom: 90
   # Screen offsets (0 is center). Positive X moves right, positive Y moves down.
   offset_x: 0
   offset_y: 0
