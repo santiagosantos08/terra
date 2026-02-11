@@ -61,3 +61,5 @@ Todos / stuff you can help with:
 - Support for more DEs/WMs
 
 - Move the SVG's text to the config file
+
+- Auto change the backgorund color depending on time? not sure..
