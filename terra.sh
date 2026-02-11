@@ -154,7 +154,7 @@ while true; do
     WALLPAPER_PATH="$CACHE_DIR/wallpaper-$SUFFIX.svg"
     FILE_URI="file://$WALLPAPER_PATH"
 
-    # 2. GENERATE SVG (Dynamic Background + Base64)
+    # Dynamic Background + Base64-ed render from xplanet
     B64_DATA=$(base64 -w 0 "$RENDER_PATH")
     
     cat > "$WALLPAPER_PATH" <<EOF

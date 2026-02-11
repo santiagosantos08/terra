@@ -49,3 +49,5 @@ systemctl --user restart terra
 This project relies on systemd user units to handle the background updates and lifecycle of the script. If you are on a distribution that does not use systemd (e.g., Gentoo, Artix, Devuan), you will need to manually configure the script to run on startup using your init system of choice.
 
 If you don't know what an init system is, you are likely running systemd and the installer will work fine.
+
+## Enjoy :) Make goofy software, who cares.
