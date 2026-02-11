@@ -63,3 +63,7 @@ Todos / stuff you can help with:
 - Move the SVG's text to the config file
 
 - Auto change the backgorund color depending on time? not sure..
+
+- Add stars / constellations in the background? scope creep incoming.
+
+- Def modify the installer to give the option to choose a different texture, it looks wayy better with a nicer one.
