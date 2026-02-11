@@ -20,16 +20,14 @@ xplanet jq curl
 Clone the repo
 
 ```
-git clone https://github.com/santiagosantos08/terra
-cd terra
+git clone https://github.com/santiagosantos08/terra && cd terra
 ```
 Make the installer script executable and run it
 ```
-chmod +x install.sh
-./install.sh
+chmod +x install.sh && ./install.sh
 ```
 
-The installer will move the scripts to ```~/terra```, download the required NASA Blue Marble map textures, and set up a systemd service to keep the wallpaper updated.
+The installer will move the scripts to ```~/terra```, download the required map textures, and set up a systemd service to keep the wallpaper updated.
 
 ## Configuration
 
