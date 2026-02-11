@@ -51,3 +51,13 @@ This project relies on systemd user units to handle the background updates and l
 If you don't know what an init system is, you are likely running systemd and the installer will work fine.
 
 ## Enjoy :) Make goofy software, who cares.
+
+Todos / stuff you can help with:
+
+- Seasonal maps, NASA provides these, but i made this in 20 minutes, i'll leave it for tomorrow, or someone else. It never snows where i live so idc, but you might.
+
+- Proper night map with visible city lights?? not sure how it would look and there are not as many available.
+
+- Support for more DEs/WMs
+
+- Move the SVG's text to the config file
